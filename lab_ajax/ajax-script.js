@@ -1,6 +1,6 @@
 $(document).on('submit','#userForm',function(e){
     e.preventDefault();
-   
+
     $.ajax({
     method:"POST",
     url: "php-script.php",
